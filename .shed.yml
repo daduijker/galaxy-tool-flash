@@ -1,0 +1,9 @@
+categories: 
+  - Fasta Manipulation
+  - Fastq Manipulation
+description: Merge reads with FLASH
+homepage_url: https://github.com/naturalis/galaxy-tool-flash
+name: naturalis_flash
+owner: duijker.d
+remote_repository_url: https://gitlab.com/LCAB-Bioinformatics/galaxy/naturalis/galaxy-tool-flash
+type: unrestricted
