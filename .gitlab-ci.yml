@@ -1,0 +1,4 @@
+include:
+  - project: 'LCAB-Bioinformatics/galaxy/galaxy-gitlab-ci-pipelines'
+    file:
+      - 'galaxy_tool_upload.gitlab-ci.yml'
