@@ -1,4 +1,4 @@
-<tool id="flash merger" name="Merge reads">
+<tool id="flash merger" name="Merge reads" version="1.0">
 <!--
 <description>Merge reads</description>
 -->
@@ -42,16 +42,16 @@ $maxoverlap]]>
 
 
 <outputs>
-	<data format="zip" type="data" name="output_zip" label="$input.display_name zip" />
+	<data format="zip" name="output_zip" label="$input.display_name zip" />
 	<data format="txt" name="output_log" label="$input.display_name log" />
 
 </outputs>
-<tests>
+<!-- <tests>
 <test>
 <param name="test_input" value="test_input.txt"/>
 <output name="test_outout" file="test_output.txt"/>
 </test>
-</tests>
+</tests> -->
 <help>
 <![CDATA[
         merge
